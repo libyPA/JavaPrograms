@@ -14,5 +14,7 @@ public class StringMethods4 {
         System.out.println(String.valueOf('A'));
         System.out.println(String.valueOf(true));
         System.out.println(String.valueOf(4.5f));
+        String myStr = " My name is \"Paru\"."; //backslash (\), turns special characters into string characters.
+        System.out.println(myStr);
     }
 }
